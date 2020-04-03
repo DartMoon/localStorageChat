@@ -1,24 +1,30 @@
-import {takeEvery, put, select, call} from "redux-saga/effects";
+import {takeEvery, put, select, call, delay} from "redux-saga/effects";
 
 import {api} from "../../api";
 import {MESSAGE} from "./constants";
 import {messageSelector} from "./selector";
 import randomId from "../../utils/randomId";
 import {addMessage, addMessageState} from "./actions";
+import {userSelector} from "../Auth/selector";
 
 function* setMessageWorker() {
   const {message} = yield select(messageSelector);
+  const userInfo = yield select(userSelector);
 
-  yield put(addMessage({
+  yield call(api.newMessagePost, {
+    name: userInfo,
     id: randomId(),
     message,
-    date: new Date ()}))
+    date: new Date ()});
 }
 
 function* fetchData() {
-  const data = yield call(api.getChatData);
+  while(true) {
+    const data = yield call(api.getChatData);
 
-  yield put(addMessageState(data))
+    yield delay(1000);
+    yield put(addMessageState(data))
+  }
 }
 
 function* messageWatcher() {

@@ -9,12 +9,12 @@ const MessagesList = ({chatList}) => {
     <ul>
       {chatList.map(message => {
         return (
-          <li key={message.id} className={styles.container}>
+          <li key={message?.id} className={styles.container}>
             <div>
-              <span>Kirill</span>
-              <div>{message.message}</div>
+              <span>{message?.name?.authUserName}</span>
+              <div>{message?.message}</div>
             </div>
-            <div>{toMessageSent(message.date)}</div>
+            <div>{toMessageSent(message?.date)}</div>
           </li>
         )
       })}
