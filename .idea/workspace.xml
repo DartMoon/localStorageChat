@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9588d8b4-e12a-4147-945c-ce4b61bed5ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/store/Chat/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Initial/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/StarterContainer/actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/StarterContainer/constants.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/StarterContainer/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/StarterContainer/saga.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/StarterContainer/selectors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/StarterContainer/starterReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/configuration.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/rootReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/rootSaga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/rootSaga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Organisms/MessagesList/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Organisms/MessagesList/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Organisms/MessagesList/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Organisms/MessagesList/style.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/Chat/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/Chat/saga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +15,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZnscvsNo4rLowCwiPxqIpxz9C2" />
@@ -105,7 +97,7 @@
       <workItem from="1585558997727" duration="18609000" />
       <workItem from="1585661393011" duration="612000" />
       <workItem from="1585664238476" duration="3222000" />
-      <workItem from="1585732778677" duration="17362000" />
+      <workItem from="1585732778677" duration="18658000" />
     </task>
     <task id="LOCAL-00001" summary="Redux/Saga/Reselect added">
       <created>1585501866530</created>
@@ -153,22 +145,22 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="1021" y="198" key="CommitChangelistDialog2/0.23.1920.1177@0.23.1920.1177" timestamp="1585501866204" />
-    <state width="1899" height="329" key="GridCell.Tab.0.bottom" timestamp="1585677876608">
+    <state width="939" height="329" key="GridCell.Tab.0.bottom" timestamp="1585907658223">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1899" height="329" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1585677876608" />
-    <state width="1899" height="329" key="GridCell.Tab.0.center" timestamp="1585677876607">
+    <state width="939" height="329" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1585907658223" />
+    <state width="939" height="329" key="GridCell.Tab.0.center" timestamp="1585907658223">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1899" height="329" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1585677876607" />
-    <state width="1899" height="329" key="GridCell.Tab.0.left" timestamp="1585677876607">
+    <state width="939" height="329" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1585907658223" />
+    <state width="939" height="329" key="GridCell.Tab.0.left" timestamp="1585907658222">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1899" height="329" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1585677876607" />
-    <state width="1899" height="329" key="GridCell.Tab.0.right" timestamp="1585677876608">
+    <state width="939" height="329" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1585907658222" />
+    <state width="939" height="329" key="GridCell.Tab.0.right" timestamp="1585907658223">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1899" height="329" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1585677876608" />
+    <state width="939" height="329" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1585907658223" />
     <state x="923" y="250" key="SettingsEditor" timestamp="1585487289428">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
