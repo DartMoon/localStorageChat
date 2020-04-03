@@ -1,11 +1,10 @@
 import React from 'react';
-import './App.css';
 
-import SomeContainer from "./containers/StarterContainer";
+import MainPage from "./Pages/Mian";
 
 function App() {
   return (
-    <SomeContainer />
+    <MainPage />
   );
 }
 

@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9588d8b4-e12a-4147-945c-ce4b61bed5ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/store/Chat/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Initial/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/StarterContainer/actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/StarterContainer/constants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/StarterContainer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/StarterContainer/saga.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/StarterContainer/selectors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/StarterContainer/starterReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/configuration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/rootReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/rootSaga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/rootSaga.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +41,26 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/containers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/store" />
+      <recent name="$PROJECT_DIR$/src/store/Chat" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/reducer" />
+      <recent name="$PROJECT_DIR$/src/saga" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/containers" />
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -70,7 +102,10 @@
       <workItem from="1585486277177" duration="261000" />
       <workItem from="1585487007284" duration="12046000" />
       <workItem from="1585558683775" duration="157000" />
-      <workItem from="1585558997727" duration="1531000" />
+      <workItem from="1585558997727" duration="18609000" />
+      <workItem from="1585661393011" duration="612000" />
+      <workItem from="1585664238476" duration="3222000" />
+      <workItem from="1585732778677" duration="17362000" />
     </task>
     <task id="LOCAL-00001" summary="Redux/Saga/Reselect added">
       <created>1585501866530</created>
@@ -110,26 +145,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="Redux/Saga/Reselect added" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1178" y="365" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585739989810">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="1178" y="365" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1585739989810" />
     <state x="1021" y="198" key="CommitChangelistDialog2" timestamp="1585501866204">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="1021" y="198" key="CommitChangelistDialog2/0.23.1920.1177@0.23.1920.1177" timestamp="1585501866204" />
-    <state width="939" height="329" key="GridCell.Tab.0.bottom" timestamp="1585558671859">
+    <state width="1899" height="329" key="GridCell.Tab.0.bottom" timestamp="1585677876608">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="939" height="329" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1585558671859" />
-    <state width="939" height="329" key="GridCell.Tab.0.center" timestamp="1585558671858">
+    <state width="1899" height="329" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1585677876608" />
+    <state width="1899" height="329" key="GridCell.Tab.0.center" timestamp="1585677876607">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="939" height="329" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1585558671858" />
-    <state width="939" height="329" key="GridCell.Tab.0.left" timestamp="1585558671857">
+    <state width="1899" height="329" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1585677876607" />
+    <state width="1899" height="329" key="GridCell.Tab.0.left" timestamp="1585677876607">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="939" height="329" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1585558671857" />
-    <state width="939" height="329" key="GridCell.Tab.0.right" timestamp="1585558671859">
+    <state width="1899" height="329" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1585677876607" />
+    <state width="1899" height="329" key="GridCell.Tab.0.right" timestamp="1585677876608">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="939" height="329" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1585558671859" />
+    <state width="1899" height="329" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1585677876608" />
     <state x="923" y="250" key="SettingsEditor" timestamp="1585487289428">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
@@ -138,5 +177,17 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="560" y="351" key="Vcs.Push.Dialog.v2/0.23.1920.1177@0.23.1920.1177" timestamp="1585501930054" />
+    <state x="1060" y="123" width="760" height="977" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585907510338">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="1060" y="123" width="760" height="977" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1585907510338" />
+    <state x="1009" y="343" width="861" height="536" key="find.popup" timestamp="1585826442611">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="1009" y="343" width="861" height="536" key="find.popup/0.23.1920.1177@0.23.1920.1177" timestamp="1585826442611" />
+    <state x="1105" y="288" width="670" height="676" key="search.everywhere.popup" timestamp="1585826401515">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="1105" y="288" width="670" height="676" key="search.everywhere.popup/0.23.1920.1177@0.23.1920.1177" timestamp="1585826401515" />
   </component>
 </project>
