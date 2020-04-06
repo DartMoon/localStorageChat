@@ -3,11 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="9588d8b4-e12a-4147-945c-ce4b61bed5ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Mian/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Mian/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Atoms/Fields/Input/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Atoms/Fields/Input/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Organisms/MessagesList/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Organisms/MessagesList/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Organisms/MessagesList/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Organisms/MessagesList/style.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/formName.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/formName.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/Chat/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/Chat/saga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/rootReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/rootSaga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/rootSaga.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/containers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/store" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -50,6 +53,7 @@
       <recent name="$PROJECT_DIR$/src/saga" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/store" />
       <recent name="$PROJECT_DIR$/src/containers" />
       <recent name="$PROJECT_DIR$/src/components" />
     </key>
@@ -173,13 +177,13 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="1060" y="123" width="760" height="977" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1585907510338" />
-    <state x="1009" y="343" width="861" height="536" key="find.popup" timestamp="1585826442611">
+    <state x="1009" y="343" width="861" height="536" key="find.popup" timestamp="1585919518747">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state x="1009" y="343" width="861" height="536" key="find.popup/0.23.1920.1177@0.23.1920.1177" timestamp="1585826442611" />
-    <state x="1105" y="288" width="670" height="676" key="search.everywhere.popup" timestamp="1585826401515">
+    <state x="1009" y="343" width="861" height="536" key="find.popup/0.23.1920.1177@0.23.1920.1177" timestamp="1585919518747" />
+    <state x="1105" y="288" width="670" height="676" key="search.everywhere.popup" timestamp="1585910097859">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state x="1105" y="288" width="670" height="676" key="search.everywhere.popup/0.23.1920.1177@0.23.1920.1177" timestamp="1585826401515" />
+    <state x="1105" y="288" width="670" height="676" key="search.everywhere.popup/0.23.1920.1177@0.23.1920.1177" timestamp="1585910097859" />
   </component>
 </project>
